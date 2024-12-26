@@ -1,0 +1,45 @@
+.setting .nav-tabs .nav-link.active {
+    color: #38bbfd;
+    font-weight: bold;
+    /* background-color: #f8f9fa; */
+    border-left: 3px solid #38bbfd;
+  }
+  .setting .nav-tabs .nav-link{
+    color: #000;
+  }
+
+  .setting{
+    background: gainsboro;
+    height: 70vh;
+  }
+
+  @media (max-width: 768px) {
+    .setting{
+      height: auto;
+    }
+  }
+
+
+
+
+  /* Profile.jsx css */
+  .profile .nav-tabs .nav-link.active {
+    color: #38bbfd;
+    font-weight: bold;
+    /* background-color: #f8f9fa; */
+    border-left: 3px solid #38bbfd;
+  }
+  .profile .nav-tabs .nav-link{
+    color: #000;
+  }
+
+  .profile{
+    background: gainsboro;
+    height: 70vh;
+  }
+
+  @media (max-width: 768px) {
+    .profile{
+      height: auto;
+    }
+  }

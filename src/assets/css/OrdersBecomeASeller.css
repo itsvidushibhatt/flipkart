@@ -1,0 +1,132 @@
+/* Spinner loading css */
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 40px 0px 40px 400px;
+}
+/* .spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.orders-dashboard .nav-tabs .nav-link.active {
+    color: #38bbfd;
+    font-weight: bold;
+    /* background-color: #f8f9fa; */
+    border-bottom: 3px solid #38bbfd;
+  }
+  .orders-dashboard .nav-tabs .nav-link{
+    color: #000;
+  }
+  
+  .orders-dashboard .badge {
+    padding: 0.5em 0.75em;
+  }
+  
+  .order-table .table {
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+
+  /* OrderDeatils css */
+
+  .order-details .order-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  
+  .order-details .order-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+
+  /* Container padding and layout adjustments */
+
+
+.breadcrumb-container {
+  margin-bottom: 20px;
+}
+
+.order-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.order-status .badge {
+  font-size: 0.9rem;
+}
+
+.order-date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.action-buttons .btn {
+  font-size: 0.9rem;
+}
+
+.order-navigation i {
+  color: #6c757d;
+}
+/* Grey line */
+.grey-line {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-navigation {
+    margin-top: 10px;
+  }
+
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .action-buttons .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+  /* customerInfo css */
+  
+  .customer-info .customer-profile img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .customer-info .customer-contact p, 
+  .customer-info .customer-address p {
+    margin-bottom: 8px;
+  }
+  

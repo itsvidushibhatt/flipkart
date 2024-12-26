@@ -1,0 +1,35 @@
+/* src/components/Pricing.css */
+.pricing-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .overview {
+    /* background-color: #f8f9fa; */
+  }
+  
+  .price-health .circle-chart {
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(
+      #ffc107 0% 33%,
+      #007bff 33% 66%,
+      #28a745 66% 100%
+    );
+    border-radius: 50%;
+  }
+  
+  .growth-stats p {
+    margin: 0;
+  }
+  
+  .products-section {
+    text-align: center;
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  select.form-select {
+    width: 200px;
+  }
+  

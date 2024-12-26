@@ -1,0 +1,113 @@
+/* font sizes */
+.fs-small{
+  font-size: 14px;
+}
+.fs-extra-small{
+  font-size: 12px;
+}
+
+/* Header section with background image */
+.header-section {
+  background-image: url('https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/banner/Desktop_sell.webp'); /* Replace with actual background image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.header-section .container {
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-section .breadcrumb-text {
+  font-size: 0.9rem;
+}
+
+/* Icon Box Styling */
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.navbar .btn-warning {
+  font-weight: bold;
+  color: #fff;
+}
+.navbar-nav .last_tab{
+  visibility: hidden;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Adjust the dropdown position if necessary */
+.navbar .dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 0.2rem;
+}
+.icon-box p{
+  font-size: 16px;
+}
+
+/* seller Review */
+.Seller_review {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease;
+}
+
+
+/* Responsive Navbar Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link, .navbar-nav .btn {
+    margin-bottom: 10px;
+  }
+  .header-section h1 {
+    font-size: 2rem;
+  }
+  .navbar-nav .medium_device_last_tab{
+     visibility: hidden;
+  }
+  .navbar-nav .last_tab{
+    visibility:visible
+  }
+  .collapse .navbar-nav{
+    margin-left: 1rem;
+  }
+}
+
+/* General Layout Adjustments */
+.container-fluid, .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
